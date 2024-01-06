@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.otpdisplay {
+    position: fixed;
+    background-color: rgba(250, 235, 215, 0.26);
+    height: 50vh;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 1PX 2PX 1px 1px;
+}
+
+.otpdisplay h2 {
+    /* background-color: burlywood; */
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(128, 0, 21);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 3px blue 1px;
+    box-shadow: 1PX 2PX 1px 0px;
+    background-color: aquamarine;
+    /* margin-left: 30px; */
+}
+
+.otpdisplay p {
+    display: flex;
+    /* margin-left: 30px; */
+    color: blue;
+    font-size: 22px;
+    margin-top: 10%;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.otpdisplay span {
+    margin-left: 5%;
+    margin-top: 0.4%;
+    width: 28%;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(22, 157, 117);
+    font-size: larger;
+    box-shadow: 1PX 2PX 1px 1px;
+    /* color: rgb(127, 23, 127); */
+}
+
+.otpdisplay button {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 189, 226);
+    margin: 8% 0px 0px 30%;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    /* border-color: rgb(165, 42, 42); */
+    box-shadow: 2PX 2PX 1px 1px;
+}
+
+.otpdisplay button:hover {
+    background-color: aquamarine;
+    color: rgb(31, 11, 97);
+}
